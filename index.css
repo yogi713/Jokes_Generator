@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(to top, #484848, rgb(12, 12, 12));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    font-family: cursive;
+}
+
+#para{
+    text-align: left;
+    color: rgb(233, 240, 232);
+}
+#div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    width:fit-content;
+    margin: auto;
+}
+
+#button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border : solid 1px rgb(94, 91, 91);
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
